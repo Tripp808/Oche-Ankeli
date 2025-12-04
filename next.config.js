@@ -5,7 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
+  basePath: 'https://github.com/Tripp808/Oche-Ankeli',
 }
 
 module.exports = nextConfig
