@@ -48,5 +48,5 @@ npm start
 
 ## License
 
-© 2024 Oche David Ankeli. All rights reserved.
+© 2025 Oche David Ankeli. All rights reserved.
 
