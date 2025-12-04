@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, MapPin, Linkedin, Github, ArrowRight } from 'lucide-react'
+import { Mail, MapPin, Linkedin, Github, ArrowRight, GraduationCap } from 'lucide-react'
 import Link from 'next/link'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
@@ -16,14 +16,14 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-12 items-start">
             {/* Left side - Text content */}
             <div className="md:col-span-2">
-              <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+              <h1 className="text-5xl md:text-6xl font-serif font-bold text-gray-900 mb-4">
                 Oche David <span className="text-purple">Ankeli</span>
               </h1>
-              <p className="text-2xl text-purple font-semibold mb-6">
+              <p className="text-2xl text-purple font-serif font-semibold mb-6">
                 Machine Learning Engineer & Researcher
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Specializing in AI fairness, bias mitigation, and culturally grounded NLP for underrepresented communities. 
+                Specializing in Natural Language Processing with focus on culturally grounded AI, AI fairness, and bias mitigation for underrepresented communities. 
                 First Class Honors graduate with research presented at <strong>NeurIPS 2025</strong> and <strong>Microsoft Research Seminar</strong>.
               </p>
             
@@ -49,7 +49,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="flex gap-4 mb-12">
+            <div className="flex flex-wrap gap-4 mb-12">
               <a 
                 href="https://linkedin.com/in/oche-ankeli-71001a9b" 
                 target="_blank" 
@@ -68,13 +68,22 @@ export default function Home() {
                 <Github size={20} />
                 GitHub
               </a>
+              <a 
+                href="https://scholar.google.com/citations?hl=en&user=XAlPAEsAAAAJ" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-6 py-3 border-2 border-purple text-purple rounded-lg hover:bg-purple hover:text-white transition-colors"
+              >
+                <GraduationCap size={20} />
+                Google Scholar
+              </a>
             </div>
             </div>
 
             {/* Right side - Profile Image */}
             <div className="flex justify-center md:justify-end">
-              <div className="relative w-64 h-64 md:w-80 md:h-80">
-                <div className="w-full h-full rounded-full overflow-hidden border-4 border-purple shadow-xl">
+              <div className="relative w-80 h-80 md:w-96 md:h-96">
+                <div className="w-full h-full rounded-2xl overflow-hidden border-4 border-purple shadow-2xl">
                   <img 
                     src="/gallery/profile.JPEG" 
                     alt="Oche David Ankeli"
@@ -93,16 +102,16 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-gray-900 mb-8">About Me</h2>
           <div className="prose prose-lg max-w-none text-gray-700">
             <p className="mb-4">
-              I am a Machine Learning Engineer and researcher specializing in AI fairness, bias mitigation, and 
-              culturally grounded NLP for underrepresented communities. As lead author on <strong>AfriStereo</strong> — 
-              the first open-source African stereotype evaluation framework — my work has been presented at NeurIPS 2025, 
-              Microsoft Research Seminar, and Deep Learning Indaba.
+              I am a Machine Learning Engineer and researcher specializing in <strong>Natural Language Processing (NLP)</strong>, 
+              with particular focus on culturally grounded NLP, AI fairness, and bias mitigation for underrepresented communities. 
+              As lead author on <strong>AfriStereo</strong> — the first open-source African stereotype evaluation framework — 
+              my work has been presented at NeurIPS 2025, Microsoft Research Seminar, and Deep Learning Indaba.
             </p>
             <p className="mb-4">
               I graduated with <strong>First Class Honors</strong> (top 5% of cohort) from African Leadership University, 
-              with a B.Sc. in Software Engineering specializing in Machine Learning & AI. My research focuses on bias 
-              evaluation methodologies, low-resource ASR development, and community-engaged AI research across healthcare, 
-              linguistic equity, and ethical AI systems.
+              with a B.Sc. in Software Engineering specializing in Machine Learning & AI. My research focuses on NLP 
+              for low-resource languages, bias evaluation methodologies, automatic speech recognition (ASR), 
+              and community-engaged AI research across healthcare, linguistic equity, and ethical AI systems.
             </p>
             <p className="text-sm text-gray-600 italic">
               * This site is constantly being updated with new publications and projects as my research progresses.
@@ -121,7 +130,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
               <h3 className="text-lg font-bold text-purple mb-4">Research Focus Areas</h3>
-              <p className="text-gray-700">NLP, AI Fairness & Bias Mitigation, Federated Learning, Representation Learning, ASR, Reinforcement Learning, Computer Vision, AI for Healthcare</p>
+              <p className="text-gray-700">Natural Language Processing (NLP), Low-Resource Languages, Culturally Grounded NLP, AI Fairness & Bias Mitigation, Automatic Speech Recognition (ASR), Federated Learning, Representation Learning, Reinforcement Learning, Computer Vision, AI for Healthcare</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">

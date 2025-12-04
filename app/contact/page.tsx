@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, MapPin, Linkedin, Github, Send } from 'lucide-react'
+import { Mail, MapPin, Linkedin, Github, GraduationCap } from 'lucide-react'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Get In Touch</h1>
           <p className="text-xl text-gray-600 mb-12">
-            I'm always interested in research collaborations, MSc opportunities, and discussions about AI fairness and ethics
+            I'm always interested in research collaborations, MSc opportunities, and discussions about Natural Language Processing, low-resource languages, and culturally grounded AI
           </p>
 
           {/* Opportunity Section */}
@@ -72,15 +72,24 @@ export default function Contact() {
           {/* Social Links */}
           <div className="bg-white p-8 rounded-xl shadow-sm">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Connect With Me</h2>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               <a 
-                href="https://linkedin.com/in/oche-ankeli-71001a9b" 
+                href="https://scholar.google.com/citations?hl=en&user=XAlPAEsAAAAJ" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 px-8 py-4 bg-purple text-white rounded-lg hover:bg-purple-dark transition-colors font-medium"
               >
+                <GraduationCap size={20} />
+                Google Scholar
+              </a>
+              <a 
+                href="https://linkedin.com/in/oche-ankeli-71001a9b" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 px-8 py-4 border-2 border-purple text-purple rounded-lg hover:bg-purple hover:text-white transition-colors font-medium"
+              >
                 <Linkedin size={20} />
-                LinkedIn Profile
+                LinkedIn
               </a>
               <a 
                 href="https://github.com/Tripp808" 
@@ -89,7 +98,7 @@ export default function Contact() {
                 className="flex items-center justify-center gap-2 px-8 py-4 border-2 border-purple text-purple rounded-lg hover:bg-purple hover:text-white transition-colors font-medium"
               >
                 <Github size={20} />
-                GitHub Profile
+                GitHub
               </a>
             </div>
           </div>
@@ -98,7 +107,7 @@ export default function Contact() {
           <div className="mt-8 p-6 bg-gray-100 rounded-lg">
             <p className="text-gray-700 text-center">
               Whether you're interested in <strong>research collaboration</strong>, have <strong>MSc/PhD opportunities</strong>, 
-              or would like to discuss <strong>AI fairness and ethics</strong>, I'd love to hear from you!
+              or would like to discuss <strong>NLP, low-resource languages, and culturally grounded AI</strong>, I'd love to hear from you!
             </p>
           </div>
         </div>

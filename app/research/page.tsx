@@ -12,7 +12,7 @@ export default function Research() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-900 mb-4">Research</h1>
           <p className="text-xl text-gray-600 mb-12">
-            My work focuses on AI fairness, culturally grounded NLP, and ethical AI systems for underrepresented communities
+            My work focuses on Natural Language Processing, with emphasis on culturally grounded NLP, low-resource languages, AI fairness, and ethical AI systems for underrepresented communities
           </p>
           <p className="text-sm text-purple mb-12 italic">
             * More publications and research outputs coming soon. This page is regularly updated as new work is published.
@@ -92,7 +92,7 @@ export default function Research() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                 <div className="aspect-video w-full bg-gray-200 relative overflow-hidden">
                   <img 
-                    src="/gallery/indaba-1.jpg" 
+                    src="/gallery/indaba-1.jpeg" 
                     alt="Deep Learning Indaba - Presentation"
                     className="w-full h-full object-cover"
                   />
@@ -106,7 +106,7 @@ export default function Research() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                 <div className="aspect-video w-full bg-gray-200 relative overflow-hidden">
                   <img 
-                    src="/gallery/indaba-2.jpg" 
+                    src="/gallery/indaba-2.jpeg" 
                     alt="Deep Learning Indaba - Networking"
                     className="w-full h-full object-cover"
                   />
@@ -120,7 +120,7 @@ export default function Research() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                 <div className="aspect-video w-full bg-gray-200 relative overflow-hidden">
                   <img 
-                    src="/gallery/indaba-3.jpg" 
+                    src="/gallery/indaba-3.jpeg" 
                     alt="Deep Learning Indaba - Discussion"
                     className="w-full h-full object-cover"
                   />
@@ -135,7 +135,7 @@ export default function Research() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                 <div className="aspect-video w-full bg-gray-200 relative overflow-hidden">
                   <img 
-                    src="/gallery/neurips.jpg" 
+                    src="/gallery/neurips.jpeg" 
                     alt="NeurIPS 2025 - AfriStereo Spotlight Talk"
                     className="w-full h-full object-cover"
                   />
@@ -150,7 +150,7 @@ export default function Research() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                 <div className="aspect-video w-full bg-gray-200 relative overflow-hidden">
                   <img 
-                    src="/gallery/microsoft-seminar.jpg" 
+                    src="/gallery/microsoft-seminar.jpeg" 
                     alt="Microsoft Research Seminar"
                     className="w-full h-full object-cover"
                   />
@@ -165,7 +165,7 @@ export default function Research() {
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
                 <div className="aspect-video w-full bg-gray-200 relative overflow-hidden">
                   <img 
-                    src="/gallery/open-school.jpg" 
+                    src="/gallery/open-school.jpeg" 
                     alt="Open School Nigeria AI Literacy Fellowship"
                     className="w-full h-full object-cover"
                   />
@@ -189,14 +189,34 @@ export default function Research() {
                 <p className="text-gray-600 mb-2">
                   Le Beux, Y., Audu, O., <strong>Ankeli, O.D.</strong>, Balakrishnan, D., Weya, M., Ralaiarinosy, M.D., Ezeani, I.
                 </p>
-                <p className="text-sm text-purple">Manuscript under review, LREC 2026</p>
+                <div className="flex flex-wrap gap-4 items-center">
+                  <p className="text-sm text-purple">Manuscript under review, LREC 2026</p>
+                  <a 
+                    href="https://arxiv.org/abs/2511.22016v1" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-sm text-purple hover:text-purple-dark underline font-medium"
+                  >
+                    View on arXiv →
+                  </a>
+                </div>
               </div>
 
               <div className="bg-white border-l-4 border-purple pl-6 pr-6 py-6 rounded-r-xl hover:shadow-md transition-shadow">
                 <h3 className="font-bold text-lg text-gray-900 mb-2">
                   Spotlight Talk: AfriStereo presentation at NeurIPS 2025
                 </h3>
-                <p className="text-sm text-purple">NeurIPS 2025 CLRLC-LLMs workshop (Dec 2025)</p>
+                <div className="flex flex-wrap gap-4 items-center">
+                  <p className="text-sm text-purple">NeurIPS 2025 CLRLC-LLMs workshop (Dec 2025)</p>
+                  <a 
+                    href="https://clrlcllms.github.io/CLRLCLLMs-workshop.github.io-NeurIPS-2025/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-sm text-purple hover:text-purple-dark underline font-medium"
+                  >
+                    View Workshop →
+                  </a>
+                </div>
               </div>
 
               <div className="bg-white border-l-4 border-purple pl-6 pr-6 py-6 rounded-r-xl hover:shadow-md transition-shadow">
