@@ -1,52 +1,54 @@
-# Oche David Ankeli - Personal Portfolio Website
+# Oche David Ankeli - Personal Portfolio
 
-A modern, single-page portfolio website showcasing my work as a Machine Learning Engineer and Researcher.
+Personal portfolio website for Oche David Ankeli, Machine Learning Engineer and NLP Researcher.
 
-## Built With
+## About
 
-- **Next.js 14** - React framework
-- **Tailwind CSS** - Styling
-- **TypeScript** - Type safety
-- **Lucide React** - Icons
+This portfolio showcases research experience, publications, professional work, awards, and contact information.
 
-## Features
+## Structure
 
-- Single-page design with smooth scrolling
-- Responsive navigation
-- Sections for About, Research, Publications, Experience, Projects, Skills, Awards, and Contact
-- Purple color theme inspired by modern academic websites
-- Mobile-responsive design
-
-## Getting Started
-
-### Install Dependencies
-
-```bash
-npm install
+```
+.
+├── index.html          # Homepage
+├── research.html       # Research and publications
+├── experience.html     # Professional experience
+├── awards.html         # Awards and honors
+├── contact.html        # Contact information
+├── styles.css          # Stylesheet
+├── script.js           # JavaScript
+└── public/             # Images and assets
 ```
 
-### Run Development Server
+## Technologies
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- Google Fonts (Inter & Playfair Display)
+
+## GitHub Pages Deployment
+
+1. Push to GitHub repository
+2. Go to Settings > Pages
+3. Select "main" branch and "/ (root)" folder
+4. Save and wait for deployment
+
+## Local Preview
+
+Open `index.html` in your browser or use a local server:
 
 ```bash
-npm run dev
+python3 -m http.server 8000
 ```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## Customization
-
-- Colors can be adjusted in `tailwind.config.js`
-- Content is in `app/page.tsx`
-- Global styles in `app/globals.css`
 
 ## License
 
-© 2024 Oche David Ankeli. All rights reserved.
+Copyright 2025 Oche David Ankeli. All rights reserved.
 
+## Contact
+
+- Email: ankelioche@gmail.com
+- LinkedIn: [oche-ankeli-71001a9b](https://linkedin.com/in/oche-ankeli-71001a9b)
+- GitHub: [Tripp808](https://github.com/Tripp808)
+- Google Scholar: [XAlPAEsAAAAJ](https://scholar.google.com/citations?hl=en&user=XAlPAEsAAAAJ)
