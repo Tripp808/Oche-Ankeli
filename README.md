@@ -44,7 +44,7 @@ python3 -m http.server 8000
 
 ## License
 
-Copyright 2025 Oche David Ankeli. All rights reserved.
+© 2025 Oche David Ankeli. All rights reserved.
 
 ## Contact
 
